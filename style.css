@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.navbar {
+    width: 90%;
+    height: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 55px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    font: 'Lato';
+}
+
+.firstline {
+    width: 85em;
+    margin-left: 6%;
+    opacity: 0.3;
+}
+
+.accountborder {
+    border-style:groove;
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-width: thick;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;
+    width: 69em;
+}
+
+.container,
+.sidebar {   
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+
+.container {
+    flex-direction: column;
+    width: 50%;
+}
+
+.checkout {
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.inputBoxGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebyside {
+    display: flex;
+}
+
+.inputBox1,
+.inputBox2 {
+    flex: 1;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.;
+    color: #1d2c3c;
+}
+
+.inputBox1:last-child,
+.inputBox2:last-child {
+    margin-bottom: 0px;
+}
+
+.inputBox3 {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #1d2c3c;
+    display: block;
+}
+
+.inputBox3 span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.title2 {
+    margin-bottom: 30px;
+}
+
+.icon-image {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+.input {
+    box-sizing: border-box;
+    padding: 0.7rem 1.3rem 0.7rem 1.3rem;
+    width: 85%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: #646e7a;
+    font-family: 'Lato, Source Sans Pro';
+    white-space: nowrap;
+    background-color: #edeff2;
+    border-radius: 0.4rem;
+    border: #646e7a;
+    margin-top: 5px;
+}
+.input1 {
+    box-sizing: border-box;
+    padding: 0.7rem 1.3rem 0.7rem 1.3rem;
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: #646e7a;
+    font-family: 'Lato, Source Sans Pro';
+    white-space: nowrap;
+    background-color: #edeff2;
+    border-radius: 0.4rem;
+    border: #646e7a;
+    margin-top: 5px;
+}
+
+.inputBox4 {
+    margin-bottom: 60px;
+}
+
+.input2 {
+    box-sizing: border-box;
+    padding: 0.7rem 1.3rem 0.7rem 1.3rem;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: #646e7a;
+    font-family: 'Lato, Source Sans Pro';
+    white-space: nowrap;
+    background-color: #edeff2;
+    border-radius: 0.4rem;
+    border: #646e7a;
+    margin-top: 5px;
+}
+
+.button {
+    width: 100%;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.0396rem;
+    color: #ffffff;
+    font-family: 'Lato, Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #038e7d;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+}
+
+.needhelp {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato, Source Sans Pro';
+    
+}
+
+.needhelp span:first-child {
+    font-weight: bold;
+}
+
+.needhelp img {
+    width: 20px;
+    height: auto;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+.stripelogo {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+.line {
+    margin-bottom: 30px;
+    opacity: 0.3;
+}
+
+.line1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    opacity: 0.3;
+}
+
+.line2 {
+    margin-bottom: 30px;
+    opacity: 0.3;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #1179BF;
+    color: white;
+}
+
+.plan {
+    margin-bottom: 50px;
+}
+
+.freelancer {
+    font-size: 1.2em;
+}
+
+.pricing {
+    position: relative;
+}
+
+.dollarsign,
+.timelapse {
+    display: inline-block;
+}
+
+.dollarsign {
+    position: absolute;
+    top: 0.7em;
+    left: 0;
+    font-size: 1.2em;
+}
+
+.price {
+    font-size: 4em;
+    margin-left: 0.2em;
+    font-weight: 300;
+}
+
+.renew {
+    transform: skewX(-10deg);
+    margin-bottom: 20px;
+}
+
+.auto-group {
+    display: flex;
+    align-items: center;
+}
+
+.auto-group-icons {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 20px;
+    height: auto;
+}
+
+.pricing-benefits {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.second-details {
+    margin-top: 20%;
+    color: white !important;
+}
+
+.line3 {
+    margin-top: 20%;
+    color: #FFFFFF;
+    opacity: 0.3;
+    
+}
+
+.client-sites {
+    margin-bottom: 1%;
+}
+
+.agency {
+    color: white !important;
+    text-decoration: underline;
+    text-decoration-color: #70c0f5;
+    font-weight: bolder;
+}
+
+.customer-review-comment {
+    margin-top: 20%;
+    transform: skewX(-3deg);
+}
+
+.customer-pics {
+    position: relative;
+    display: inline;
+}
+
+.manimage {
+    vertical-align: middle;
+    width: 50px;
+    height: auto;
+}
+
+.customer-name {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.footer {
+    width: 100%;
+    text-align: center; 
+    padding: 10px 0; 
+    margin-top: 60em;
+}
+
+.footer span:nth-child(2) {
+    color: #1179BF;
+}
